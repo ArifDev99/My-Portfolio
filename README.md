@@ -16,11 +16,15 @@ Open your browser and navigate to http://localhost:5173/.
 
 ## Installation
 To install the dependencies, run the following command:
-npm install
+```bash
+    npm install
+```
 
 ## Development
 To start the development server, run the following command:
-npm run dev
+```bash
+    npm run dev
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
