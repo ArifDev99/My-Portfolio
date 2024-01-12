@@ -1,0 +1,26 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[data-theme="light"]{
+  --bg-background-color:#ffffff;
+  --text-color:#000000;
+}
+[data-theme="dark"]{
+  --bg-background-color:#000000;
+  --text-color:#ffffff;
+}
+
+body{
+  background-color: var(--bg-background-color);
+  color: var(--text-color);
+  margin: 0 20px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+a{
+  margin: 0;
+  padding: 0;
+}
