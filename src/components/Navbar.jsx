@@ -16,7 +16,7 @@ export default function Navbar() {
 
   // console.log(theme)
   return (
-    <div className="nav flex justify-between items-center">
+    <div className="nav h-16 flex justify-between items-center z-10 bg-inherit">
       <div className="cursor-pointer">
         <label htmlFor="toggle-btn" className="relative flex justify-between items-center p-2 text-xl">
         <input
@@ -35,7 +35,7 @@ export default function Navbar() {
         <Link to="/contact">Contact</Link>
       </div>
       {/* social media links */}
-      <div className="flex justify-center items-center text-2xl gap-3 cursor-pointer">
+      <div className="hidden justify-center items-center text-2xl gap-3 cursor-pointer md:flex  ">
         <div className="flex justify-center items-center h-8 w-8 rounded-md border-2 border-teal-400 border-opacity-50 hover:bg-teal-500">
           <a href="https://www.linkedin.com/in/arif11896/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon="fa-brands fa-linkedin" /></a>
           

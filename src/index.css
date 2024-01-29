@@ -15,8 +15,8 @@
 body{
   background-color: var(--bg-background-color);
   color: var(--text-color);
-  margin: 0 20px;
   box-sizing: border-box;
+  object-fit: contain;
   padding: 10px;
 }
 
