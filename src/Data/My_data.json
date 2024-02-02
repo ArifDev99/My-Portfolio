@@ -1,8 +1,13 @@
 {
-    "firstname":"Arif",
-    "lastname":"Rahaman",
-    "hederTag":["Developer","Programmer","MERN - Stack Developer"],
-    "Bio":"I am a graduate with a Bachelor of Technology (B-tech) degree in Computer Science & Engineering.Currently seeking full-time Software Engineer opportunities.Please feel free to contact me on LinkedIn for any new opportunities.",
-    "resume-link":"https://drive.google.com/file/d/1mwwr7p7RttrVdt7OWR0oqurzErdrNnyI/view?usp=sharing"
-    
+    "firstname": "Arif",
+    "lastname": "Rahaman",
+    "hederTag": [
+        "Developer",
+        "Programmer",
+        "MERN - Stack Developer"
+    ],
+    "Bio": "I am a graduate with a Bachelor of Technology (B-tech) degree in Computer Science & Engineering.Currently seeking full-time Software Engineer opportunities.Please feel free to contact me on LinkedIn for any new opportunities.",
+    "resume-link": "https://drive.google.com/file/d/1mwwr7p7RttrVdt7OWR0oqurzErdrNnyI/view?usp=sharing",
+    "Description": "My name is Arif Rahaman,I am from small town named Coochbhear. I am a graduate with a Bachelor of Technology (B-tech) degree in Computer Science & Engineering from Coochbhear Government Engineer College on 2023. My expertise in front-end development , backend development and full stack development with the latest web technologies. I have knowledge of web development technologies, including HTML, CSS, JavaScript, React.js, Express.js, Node.js, and Tailwind CSS, which enables me to build interactive and responsive web applications.Also I have proficiency in Python, C++, and C. I have very much interested in Software Developer role. "
+
 }

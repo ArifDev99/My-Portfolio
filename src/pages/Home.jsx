@@ -14,20 +14,20 @@ library.add(faArrowRight)
 export default function Home() {
   return (
     <div className="h-[calc(100dvh_-_96px)] w-full flex justify-center items-center p-2">
-      <div className="grid gap-2 w-full md:grid-cols-2  overflow-hidden place-items-center">
+      <div className="grid  gap-2 w-full md:grid-cols-2  overflow-hidden place-items-center">
         <div className="h-full w-[90%] md:w-[35rem] text-left grid grid-cols-1 content-center  ">
           <div className="flex justify-center">
             <TypeAnimation
               sequence={[`Hi, I am `]}
               speed={30}
               cursor={false}
-              className="text-[2rem] md:-[3rem] font-bold mr-2 uppercase"
+              className="text-[1.5rem] md:text-[2rem] font-bold mr-2 uppercase"
             />
             <TypeAnimation
               sequence={[500, ` ${data.firstname}`]}
               speed={30}
               cursor={false}
-              className="text-[2rem] md:-[3rem] font-bold  text-yellow-500 uppercase"
+              className="text-[1.5rem] md:text-[2rem] font-bold  text-yellow-500 uppercase"
             />
           </div>
           <div className="my-1 flex justify-center">
@@ -44,27 +44,27 @@ export default function Home() {
               speed={30}
               cursor={true}
               repeat={Infinity}
-              className="text-[2rem] md:-[3rem] font-bold uppercase text-emerald-700"
+              className="text-[1.5rem] md:text-[2rem] font-bold uppercase text-emerald-700"
             />
           </div>
           <div>
-            <p className="text-wrap text-center text-base font-medium">{`${data.Bio}`}</p>
+            <p className="text-wrap text-center text-xs md:text-base font-medium">{`${data.Bio}`}</p>
           </div>
-          <div className="mt-2 grid justify-center items-center">
+          <div className="mt-2  grid justify-center items-center">
             <Link
-              className="p-2 font-medium  rounded-md bg-lime-500 hover:bg-lime-700 duration-200 transition-all uppercase"
+              className="p-2 m-0 font-medium  rounded-lg bg-lime-500 hover:bg-lime-700 duration-200 transition-all uppercase "
               to={data["resume-link"]}
               target="_blank"
             >
               Checkout my CV
-              <FontAwesomeIcon className="mx-2" icon="fa-solid fa-arrow-right " />
+              <FontAwesomeIcon className="mx-2 align-middle" icon="fa-solid fa-arrow-right " />
             </Link>
           </div>
         </div>
-        <div className="w-full h-full flex justify-center items-center">
-          <div className=" w-[15rem] h-[15rem] rounded-[50%] overflow-hidden md:w-[20rem] md:h-[20rem]">
+        <div className="w-full h-full flex justify-center items-center order-first md:order-last">
+          <div className=" w-[12rem] h-[12rem] rounded-[50%] overflow-hidden md:w-[20rem] md:h-[20rem] ">
             <img
-              className="h-full w-full scale-75 md:scale-125  bg-cover"
+              className="h-full w-full scale-125 bg-cover"
               src={Profile}
               alt="Profile Image"
             />

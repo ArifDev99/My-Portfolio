@@ -37,18 +37,18 @@ export default function Navbar() {
       {/* social media links */}
       <div className="hidden justify-center items-center text-2xl gap-3 cursor-pointer md:flex  ">
         <div className="flex justify-center items-center h-8 w-8 rounded-md border-2 border-teal-400 border-opacity-50 hover:bg-teal-500">
-          <a href="https://www.linkedin.com/in/arif11896/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon="fa-brands fa-linkedin" /></a>
+          <a href="https://www.linkedin.com/in/arif11896/" className="" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="align-middle" icon="fa-brands fa-linkedin" /></a>
           
         </div>
         <div className="flex justify-center items-center h-8 w-8 rounded-[50%] border-2 border-teal-400 border-opacity-50 hover:bg-teal-400">
-          <a href="https://github.com/ArifDev99" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon  icon="fa-brands fa-github" /></a>
+          <a href="https://github.com/ArifDev99" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="align-middle"  icon="fa-brands fa-github" /></a>
         </div>
         <div className="flex justify-center items-center h-8 w-8 rounded-[50%] border-2 border-teal-400 border-opacity-50 hover:bg-teal-400">
-          <a href="https://www.facebook.com/arif.rahaman.75098" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon="fa-brands fa-facebook" /></a>
+          <a href="https://www.facebook.com/arif.rahaman.75098" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="align-middle" icon="fa-brands fa-facebook" /></a>
           
         </div>
         <div className="flex justify-center items-center h-8 w-8 rounded-md border-2 border-teal-400 border-opacity-50 hover:bg-teal-400 ">
-          <a href="https://www.instagram.com/arif_rahaman_99/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon="fa-brands fa-instagram" /></a>
+          <a href="https://www.instagram.com/arif_rahaman_99/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="align-middle" icon="fa-brands fa-instagram" /></a>
           
         </div>
       </div>
