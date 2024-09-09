@@ -1,12 +1,13 @@
 import data from "../Data/My_data.json";
 import { TypeAnimation } from "react-type-animation";
-import Profile from "../assets/Images/Profile.jpeg";
+// import Profile from "../assets/Images/Profile.jpeg";
 import "../pages/Home.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {faArrowRight} from "@fortawesome/free-solid-svg-icons"
 import { library } from "@fortawesome/fontawesome-svg-core";
+import { BASE_URL_IMAGE_FOLDER } from "../constan";
 
 library.add(faArrowRight)
 
@@ -53,7 +54,7 @@ export default function Home() {
           <div className="mt-2  grid justify-center items-center">
             <Link
               className="p-2 m-0 font-medium  rounded-lg bg-lime-500 hover:bg-lime-700 duration-200 transition-all uppercase "
-              to={data["resume-link"]}
+              to={data["resume-link"]} 
               target="_blank"
             >
               Checkout my CV
@@ -65,7 +66,7 @@ export default function Home() {
           <div className=" w-[12rem] h-[12rem] rounded-[50%] overflow-hidden md:w-[20rem] md:h-[20rem] ">
             <img
               className="h-full w-full scale-125 bg-cover"
-              src={Profile}
+              src={BASE_URL_IMAGE_FOLDER+"Profile.jpeg"}
               alt="Profile Image"
             />
           </div>

@@ -33,6 +33,7 @@ export default function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
+        <Link to="/project">My Projects</Link>
       </div>
       {/* social media links */}
       <div className="hidden justify-center items-center text-2xl gap-3 cursor-pointer md:flex  ">

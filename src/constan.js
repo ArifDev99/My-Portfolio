@@ -1,0 +1,1 @@
+export const BASE_URL_IMAGE_FOLDER="./assets/Images/"

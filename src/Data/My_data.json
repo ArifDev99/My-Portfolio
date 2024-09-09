@@ -1,13 +1,89 @@
 {
     "firstname": "Arif",
     "lastname": "Rahaman",
+    "contact": {
+    "phone": "+91 8697141236",
+    "email": "arifrahamancob@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/arif11896/",
+    "location": "Coochbehar, West Bengal, India"
+    },
     "hederTag": [
         "Developer",
         "Programmer",
         "MERN - Stack Developer"
     ],
     "Bio": "I am a graduate with a Bachelor of Technology (B-tech) degree in Computer Science & Engineering.Currently seeking full-time Software Engineer opportunities.Please feel free to contact me on LinkedIn for any new opportunities.",
-    "resume-link": "https://drive.google.com/file/d/1mwwr7p7RttrVdt7OWR0oqurzErdrNnyI/view?usp=sharing",
-    "Description": "My name is Arif Rahaman,I am from small town named Coochbhear. I am a graduate with a Bachelor of Technology (B-tech) degree in Computer Science & Engineering from Coochbhear Government Engineer College on 2023. My expertise in front-end development , backend development and full stack development with the latest web technologies. I have knowledge of web development technologies, including HTML, CSS, JavaScript, React.js, Express.js, Node.js, and Tailwind CSS, which enables me to build interactive and responsive web applications.Also I have proficiency in Python, C++, and C. I have very much interested in Software Developer role. "
-
+    "resume-link": "https://drive.google.com/file/d/1eB1sWNal6RkAexRL1M58c8E5dST8jGwU/view?usp=sharing",
+    "Description": "My name is Arif Rahaman, I am from a small town named Coochbhear. I am a graduate with a Bachelor of Technology (B-tech) degree in Computer Science & Engineering from Coochbhear Government Engineer College in 2023. I have always been passionate about technology and its applications in solving real-world problems. My expertise in Front-end Development, Backend Development, and Full stack development with the latest web technologies. I have knowledge of web development technologies, including HTML, CSS, JavaScript, React.js, Express.js, Node.js, and Tailwind CSS, which enables me to build interactive and responsive web applications.Also, I have proficiency in Python, C++, and C. I am very interested in the Software Developer role. I am constantly learning and expanding my skills to stay up-to-date with the latest industry trends. ",
+    "Skills":["Python","C++", "C", "React Js","JavaScript","HTML" , "CSS" , "Node Js", "Express Js","Tailwind CSS"],
+    "projects": [
+    {
+      "name": "Talkr - Messaging Application",
+      "start_date": "February 2023",
+      "end_date": "March 2023",
+      "description": "A real-time web messaging application that allows users to communicate with each other instantly.",
+      "preview_img":"Talkr-preview-img.jpg",
+      "frontend": ["React JS", "Tailwind CSS"],
+      "backend": ["Express JS", "Node JS", "WebSocket"],
+      "database": "MongoDB",
+      "features": ["User Authentication", "Message Encryption", "One-to-One Messaging", "Group Messaging"],
+      "links": {
+        "live": "https://talkr-frontend.vercel.app/",
+        "repo": "https://github.com/ArifDev99/Talkr-Frontend"
+      }
+    },
+    {
+      "name": "Spotify Clone",
+      "start_date": "September 2022",
+      "end_date": "October 2022",
+      "description": "A responsive web application visually cloned to the Spotify app, displaying songs and playlists using the Spotify Web API.",
+      "preview_img":"Spotify-clone-preview.jpg",
+      "frontend": ["HTML", "Tailwind CSS", "JavaScript"],
+      "features": ["Audio Playback Features (Play, Pause, Next, Previous)"],
+      "links": {
+        "live": "https://clone-by-arif.vercel.app/",
+        "repo": "https://github.com/ArifDev99/Spotify-Clone"
+      }
+    },
+    {
+        "name": "Weather Web",
+        "description": "Weather Web is an application to find the current weather and 5-day forecast of a given city.",
+        "preview_img":"WeatherApp.jpg",
+        "features": [
+          "Retrieve weather conditions of a city using Open Weather API",
+          "Display both current weather and 5-day forecast",
+          "Developed using HTML, CSS, Bootstrap, and JavaScript"
+        ],
+        "links": {
+            "live":"https://weather-web-kohl.vercel.app/",
+            "repo":"https://github.com/ArifDev99/Weather-web"
+        },
+        "frontend": ["HTML", "CSS", "Bootstrap", "JavaScript"]
+    },
+    {
+        "name": "Tabs-Saver",
+        "description": "It is a Chrome Extension for save brower tab and also save by input to website link.",
+        "preview_img":"Tabs-saver.jpg",
+        "features": [
+          "Add Links",
+          "Delete Links"
+        ],
+        "links": {
+            "repo":"https://github.com/ArifDev99/Tabs-Saver"
+        },
+        "frontend": ["HTML", "CSS","Bootstrap", "JavaScript"]
+    },
+    {
+        "name": "Water Quality Prediction of River Ganga Using ANFIS Model",
+        "start_date": "June 2022",
+        "end_date": "June 2023",
+        "description": "Implemented an ANFIS model and other machine learning models to predict water quality based on historical data.",
+        "techniques": ["Support Vector Regression", "Random Forest Regression", "Decision Tree Regression", "MLP Regressor", "Naive Bayes Classifier"],
+        "evaluation_metrics": ["Mean Absolute Error", "Root Mean Squared Error", "Accuracy Score"],
+        "team_size": 5,
+        "links": {
+          "repo": "https://github.com/ArifDev99/water-quality-prediction-using-ANFIS"
+        }
+    }
+  ]
 }
