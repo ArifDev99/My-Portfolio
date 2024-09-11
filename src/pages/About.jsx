@@ -2,11 +2,11 @@ import data from "../Data/My_data.json";
 
 export default function About() {
   return (
-    <div className="h-screen">
+    <div className="h-[80vh] md:h-screen">
       <div className="flex flex-col justify-center items-center">
-          <h1 className="text-5xl font-bold my-4 w-full text-center py-12">Who am I ?</h1>
-          <div className="p-3 flex justify-center">
-             <div className="p-8 border  rounded-xl w-full h-full text-xs md:text-xl md:leading-9 font-bold ">
+          <h1 className="text-5xl font-bold my-4 w-full text-center py-6 md:py-12">Who am I ?</h1>
+          <div className="p-2 flex justify-center">
+             <div className=" p-4 md:p-8 border  rounded-xl w-full h-full text-sm md:text-xl md:leading-9 font-bold ">
               {data.Description}
              </div>
              {/* todo: add an image or cool something */}

@@ -16,27 +16,29 @@ export default function Navbar() {
 
   // console.log(theme)
   return (
-    <div className="nav h-16 flex justify-between items-center z-10 bg-inherit">
-      <div className="cursor-pointer">
-        <label htmlFor="toggle-btn" className="relative flex justify-between items-center p-2 text-xl">
-        <input
-          type="checkbox"
-          onChange={toggleMode}
-          checked={theme === "dark"}
-          id="toggle-btn"
-          className="absolute left-1/2 -translate-x-1/2 w-full h-full peer appearance-none rounded-md"
-        />
-        <span className="w-10 h-6 flex items-center flex-shrink-0 ml-4 p-1 bg-black rounded-full duration-300 ease-in-out peer-checked:bg-white peer-checked:after:bg-black after:w-5 after:h-5 after:bg-white after:rounded-full after:shadow-md after:duration-300 peer-checked:after:translate-x-2.5 group-hover:after:translate-x-1"></span>
-        </label>
-      </div>
-      <div className="links flex gap-2"> 
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
-        <Link to="/project">My Projects</Link>
+    <div className="nav h-24 flex-col sm:flex-row sm:flex  justify-between items-center z-10 bg-inherit">
+      <div className="flex items-center w-full">
+        <div className="cursor-pointer">
+          <label htmlFor="toggle-btn" className="relative flex justify-between items-center p-2 text-xl">
+          <input
+            type="checkbox"
+            onChange={toggleMode}
+            checked={theme === "dark"}
+            id="toggle-btn"
+            className="absolute left-1/2 -translate-x-1/2 w-full h-full peer appearance-none rounded-md"
+          />
+          <span className="w-10 h-6 flex items-center flex-shrink-0 ml-4 p-1 bg-black rounded-full duration-300 ease-in-out peer-checked:bg-white peer-checked:after:bg-black after:w-5 after:h-5 after:bg-white after:rounded-full after:shadow-md after:duration-300 peer-checked:after:translate-x-2.5 group-hover:after:translate-x-1"></span>
+          </label>
+        </div>
+        <div className="links flex gap-2 mx-auto"> 
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
+          <Link to="/project">My Projects</Link>
+        </div>
       </div>
       {/* social media links */}
-      <div className="hidden justify-center items-center text-2xl gap-3 cursor-pointer md:flex  ">
+      <div className="flex my-4 justify-center items-center text-2xl gap-3 cursor-pointer md:flex  ">
         <div className="flex justify-center items-center h-8 w-8 rounded-md border-2 border-teal-400 border-opacity-50 hover:bg-teal-500">
           <a href="https://www.linkedin.com/in/arif11896/" className="" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="align-middle" icon="fa-brands fa-linkedin" /></a>
           

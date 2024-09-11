@@ -7,9 +7,9 @@ export default function Projects() {
   console.log("Projects", projects);
 
   return (
-    <div className="p-5">
-      <div className="w-full text-center py-8 text-4xl">My Projects</div>
-      <div className="grid grid-flow-row-dense grid-cols-3 gap-2">
+    <div className="p-3 md:p-5 flex flex-col justify-center items-center">
+      <div className="w-full text-center pt-4 pb-8 text-4xl">My Projects</div>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
       {projects && projects.length > 0 ? (
         projects.map((project, index) => (
           <div className="h-[450px] " key={index}>
@@ -23,11 +23,11 @@ export default function Projects() {
               </div>
               <div className="p-2 h-[200px]">
                 <a href="#">
-                  <h5 className="mb-2 text-xl sm:text-2xl text-gray-200 font-bold tracking-tight">
+                  <h5 className="mb-2 text-xl sm:text-xl text-gray-200 font-bold tracking-tight line-clamp-1">
                     {project.name}
                   </h5>
                 </a>
-                <p className="mb-2 font-normal text-gray-300">
+                <p className="mb-2 font-normal text-gray-300 line-clamp-4">
                   {project.description}
                 </p>
                 <a
