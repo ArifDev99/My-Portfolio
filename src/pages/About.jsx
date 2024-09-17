@@ -10,10 +10,10 @@ export default function About() {
               {data.Description}
              </div>
              {/* todo: add an image or cool something */}
-             <div className="w-[30%] h-full hidden md:flex bg-red-500">
+             {/* <div className="w-[30%] h-full hidden md:flex bg-red-500">
               cool things
               <img src="" alt="" />
-             </div>
+             </div> */}
           </div>
       </div>
     </div>
